@@ -1,0 +1,33 @@
+.logo{
+	height: 20vw;
+	text-align: center;
+}
+
+.logo img{
+	max-width : auto;
+	max-height: 100%;
+
+}
+
+#memory{
+	max-width: calc(100vh + 96px);
+	margin : 0 auto 0 auto;
+}
+
+.card{
+	height: 25vh;
+	width: 25vh;
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: white;
+	overflow: hidden;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+}
+
+.card-img{
+	max-width : 100%;
+	max-height: auto;
+}
